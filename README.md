@@ -1,12 +1,22 @@
-# Exemplo QRCODE MyZap 2.0
-#### Como baixar o exemplo
+# Exemplo Chat Multi Atendimento com PHP e JavaScript
 
-`git clone https://github.com/jhowbhz/myzap-qr.git`
+### Pacote do Composer PHP
+https://github.com/jhowbhz/package-apigratis
 
-#### Como utilizar?
+### Video do exemplo
+https://www.youtube.com/watch?v=n3nhYLjrLtE
 
-`https://www.youtube.com/watch?v=_IAizSgo0iw&t=499s`
+# Video referencia 01
+https://www.youtube.com/watch?v=_IAizSgo0iw
 
-#### Layout original (créditos)
+### Video referencia 02
+https://www.youtube.com/watch?v=uz-WaBcBpTg
 
-`https://github.com/sourabh2k15/whatsapp-web`
+### Iniciar nessa nessa por que é liberado o socket
+php -S localhost:9000 .\server.php
+
+### Porta liberada websocket
+http://localhost:9000
+
+### Crédito do chat
+https://www.bootdey.com/snippets/view/messages-chat-with-tabs#html
