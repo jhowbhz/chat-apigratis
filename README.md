@@ -1,4 +1,4 @@
-# Exemplo Chat Multi Atendimento com PHP e JavaScript
+# Exemplo Chat Multi Atendimento com PHP e JavaScript 🚀
 
 ### Pacote do Composer PHP
 https://github.com/jhowbhz/package-apigratis
