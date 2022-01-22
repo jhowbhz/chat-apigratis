@@ -1,4 +1,4 @@
-# Exemplo Chat Multi Atendimento com PHP e JavaScript 🚀
+# Esboço Chat Multi Atendimento c/ PHP e JS 🚀
 
 [![Como criar um Multi Atendimentos com PHP e JavaScript](https://img.youtube.com/vi/n3nhYLjrLtE/0.jpg)](https://www.youtube.com/watch?v=n3nhYLjrLtE)
 
@@ -28,3 +28,7 @@ http://localhost:9000
 
 ### Crédito do chat
 https://www.bootdey.com/snippets/view/messages-chat-with-tabs#html
+
+
+### Gratuito por
+https://apigratis.com.br
