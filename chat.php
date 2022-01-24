@@ -144,7 +144,7 @@
         $(document).ready(() => {
 
             //servidor MYZAP
-            HOST_MYZAP = `https://whatsapp2.contrateumdev.com.br`;
+            SERVIDOR = `https://whatsapp2.contrateumdev.com.br`;
 
             $(`.btn-send`).on('click', async (e) => {
 
@@ -164,19 +164,16 @@
                 //faz request
                 await requestMyZap(action, sessionkey, data);
 
-                //mata o botao
-                //e.event.preventDefault();
-
             })
+
         })
 
         async function getChatNumber(number) {
             
-            console.log("getChatNumber", number);
             number_send = number;
 
             //inicia o socket
-            const socket = io(HOST_MYZAP);
+            const socket = io(SERVIDOR);
 
             //receivedMessage
             socket.on('received-message', (receivedMessage) => {
@@ -238,7 +235,7 @@
         async function requestMyZap(action, sessionkey, data) {
             $(`.message`).val('');
             try {
-                let response = await fetch(`${HOST_MYZAP}${action}`, {
+                let response = await fetch(`${SERVIDOR}${action}`, {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
