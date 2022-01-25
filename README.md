@@ -2,7 +2,7 @@
 Esse é um simples esboço de chat multi atendimento usando a API do WhatsApp do site Api Gratis
 
 ### Pacote do Composer PHP
-https://github.com/jhowbhz/package-apigratis
+> https://github.com/jhowbhz/package-apigratis
 
 ### Instalando e iniciando
 ```php
