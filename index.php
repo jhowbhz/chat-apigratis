@@ -52,15 +52,15 @@
 
     $(document).ready(() => {
 
-        const SERVIDOR = `https://whatsapp2.contrateumdev.com.br`
-        const apitoken = `ApiGratisToken2021`
-        const session = `teste`
-        const sessionkey = `teste`
+        const SERVIDOR      =   `SEU_SERVIDOR`
+        const apitoken      =   `SUA_CHAVE`
+        const session       =   `SUA_SESSION`
+        const sessionkey    =   `SUA_SESSIONKEY`
 
-        const wh_connect = `https://webhook.site/8f0f5cb5-53f4-4c12-80ca-5a10648eba48`
-        const wh_message = `https://webhook.site/8f0f5cb5-53f4-4c12-80ca-5a10648eba48`
-        const wh_status = `https://webhook.site/8f0f5cb5-53f4-4c12-80ca-5a10648eba48`
-        const wh_qrcode = `https://webhook.site/8f0f5cb5-53f4-4c12-80ca-5a10648eba48`
+        const wh_connect    =   ``   //webhook
+        const wh_message    =   ``   //webhook
+        const wh_status     =   ``    //webhook
+        const wh_qrcode     =   ``    //webhook
 
         try {
 

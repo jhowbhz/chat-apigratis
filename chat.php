@@ -35,11 +35,11 @@
 
                                 <?php
 
-                                    $sessionkey = $_GET["sessionkey"];
-                                    $session = $_GET["session"];
+                                    $sessionkey =   $_GET["sessionkey"];
+                                    $session    =   $_GET["session"];
 
                                     $chats = json_decode(ApiGratis\ApiBrasil::WhatsAppService("getAllChats", [
-                                        "serverhost" => "https://whatsapp2.contrateumdev.com.br", //required
+                                        "serverhost" => "SEU_SERVIDOR", //required
                                         "session" => $session, //required
                                         "sessionkey" => $sessionkey, //required
                                     ]));
@@ -86,43 +86,7 @@
 
                     <div class="message-chat">
 
-                        <div class="chat-body">
-
-                          <!--   <div class="message info">
-                                <img alt="" class="img-circle medium-image" src="https://www.ecp.org.br/wp-content/uploads/2017/12/default-avatar-1-300x300.png">
-
-                                <div class="message-body">
-                                    <div class="message-info">
-                                        <h4> Elon Musk </h4>
-                                        <h5> <i class="fa fa-clock-o"></i> 2:22 PM </h5>
-                                    </div>
-                                    <hr>
-                                    <div class="message-text">
-                                        I've seen your new template, Dauphin, it's amazing !
-                                    </div>
-                                </div>
-                                <br>
-                            </div>
-
-                            <div class="message my-message">
-                                <img alt="" class="img-circle medium-image" src="https://www.ecp.org.br/wp-content/uploads/2017/12/default-avatar-1-300x300.png">
-
-                                <div class="message-body">
-                                    <div class="message-body-inner">
-                                        <div class="message-info">
-                                            <h4> Dennis Novac </h4>
-                                            <h5> <i class="fa fa-clock-o"></i> 2:28 PM </h5>
-                                        </div>
-                                        <hr>
-                                        <div class="message-text">
-                                            Thanks, I think I will use this for my next dashboard system.
-                                        </div>
-                                    </div>
-                                </div>
-                                <br>
-                            </div>
- -->
-                        </div>
+                        <div class="chat-body"></div>
 
                         <div class="chat-footer">
                             <textarea class="message" id="message"></textarea>
@@ -144,13 +108,13 @@
         $(document).ready(() => {
 
             //servidor MYZAP
-            SERVIDOR = `https://whatsapp2.contrateumdev.com.br`;
+            SERVIDOR    =   `SEU_SERVIDOR`;
+
+            //dados da sessao
+            sessionkey  =    `<?php echo $_GET['sessionkey'] ?>`
+            session     =    `<?php echo $_GET['session'] ?>`
 
             $(`.btn-send`).on('click', async (e) => {
-
-                //dados da sessao
-                sessionkey = `<?php echo $_GET['sessionkey'] ?>`
-                session = `<?php echo $_GET['session'] ?>`
 
                 //ações para o request dinamico
                 action = `/sendText`
