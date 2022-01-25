@@ -1,6 +1,5 @@
 # Esboço Chat Multi Atendimento c/ PHP e JS 🚀
-
-[![Como criar um Multi Atendimentos com PHP e JavaScript](https://img.youtube.com/vi/n3nhYLjrLtE/0.jpg)](https://www.youtube.com/watch?v=n3nhYLjrLtE)
+Esse é um simples esboço de chat multi atendimento usando a API do WhatsApp do site Api Gratis
 
 ### Pacote do Composer PHP
 https://github.com/jhowbhz/package-apigratis
@@ -15,18 +14,26 @@ cd chat-apigratis
 ```
 
 ```php
+composer install
+```
+
+```php
 php -S localhost:9000 .\server.php
 ```
 
 ### Video do exemplo
-https://www.youtube.com/watch?v=n3nhYLjrLtE
+> https://www.youtube.com/watch?v=n3nhYLjrLtE
 
 ### Video referencia 01
-https://www.youtube.com/watch?v=_IAizSgo0iw
+> https://www.youtube.com/watch?v=_IAizSgo0iw
 
 ### Video referencia 02
-https://www.youtube.com/watch?v=uz-WaBcBpTg
-**********
+> https://www.youtube.com/watch?v=uz-WaBcBpTg
+
+## Telas
+
+![Tela Chat](https://i.imgur.com/iInHyB3.png)
+![Tela QRCODE](https://i.imgur.com/DcC8ml5.png)
 
 ### Crédito do chat
 https://www.bootdey.com/snippets/view/messages-chat-with-tabs#html
