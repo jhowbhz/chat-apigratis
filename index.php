@@ -52,8 +52,8 @@
 
     $(document).ready(() => {
 
-        const SERVIDOR      =   `SEU_SERVIDOR`
-        const apitoken      =   `SUA_CHAVE`
+        const SERVIDOR      =   `https://whatsapp-srv07.apigratis.com.br`
+        const apitoken      =   `5E22BC1231XGFQ36B7CEA234F35C47651A6`
         const session       =   `SUA_SESSION`
         const sessionkey    =   `SUA_SESSIONKEY`
 

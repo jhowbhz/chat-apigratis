@@ -39,7 +39,7 @@
                                     $session    =   $_GET["session"];
 
                                     $chats = json_decode(ApiGratis\ApiBrasil::WhatsAppService("getAllChats", [
-                                        "serverhost" => "SEU_SERVIDOR", //required
+                                        "serverhost" => "https://whatsapp-srv07.apigratis.com.br", //required
                                         "session" => $session, //required
                                         "sessionkey" => $sessionkey, //required
                                     ]));
@@ -108,7 +108,7 @@
         $(document).ready(() => {
 
             //servidor MYZAP
-            SERVIDOR    =   `SEU_SERVIDOR`;
+            SERVIDOR    =   `https://whatsapp-srv07.apigratis.com.br`;
 
             //dados da sessao
             sessionkey  =    `<?php echo $_GET['sessionkey'] ?>`
